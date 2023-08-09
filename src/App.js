@@ -94,7 +94,7 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Each Pulse Star costs 160,000 $PLS`);
+  const [feedback, setFeedback] = useState(`Each Mutant Ape costs 99,999 $PLS`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -242,6 +242,14 @@ const Timer = ({ deadline = new Date().toString() }) => {
       '_blank' // <- This is what makes it open in a new window.
     );
   };
+
+const handleALL = () => {
+    window.open(
+      'www.starslaunchpad.net',
+      '_blank' // <- This is what makes it open in a new window.
+    );
+  };
+
 
 
   return (
