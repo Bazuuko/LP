@@ -760,7 +760,7 @@ const handleInfo = () => {
             />
         </s.Container>
         </div>
-        <div class="card">
+        <div class="card" onClick={handleInfo} target="_blank" rel="noopener noreferrer">
         <s.Container
           flex={1}
           jc={"center"}
