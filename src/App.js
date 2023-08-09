@@ -245,8 +245,7 @@ const Timer = ({ deadline = new Date().toString() }) => {
 
 const handleInfo = () => {
     window.open(
-      'https://maac.starslaunchpad.net/',
-      '_blank' // <- This is what makes it open in a new window.
+      'https://maac.starslaunchpad.net/'
     );
   };
 
